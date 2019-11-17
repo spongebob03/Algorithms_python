@@ -31,11 +31,11 @@ def Binary_Search2(list,x):
             high=mid-1
         else:
             low=mid+1
-    if loca==-1: return ("찾는 수 없음")
+    if loca==-1: return ("없음")
     return loca
 
-print(Binary_Search(0,len(slist)-1,slist,x))
-print("위치:",Binary_Search2(slist,x))
+print("Binary Search->",Binary_Search(0,len(slist)-1,slist,x))
+print("Binary Search2->",Binary_Search2(slist,x))
 
 
 

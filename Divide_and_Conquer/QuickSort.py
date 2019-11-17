@@ -16,7 +16,6 @@ def Partition(left,right):
     x = d[left] #pivot
     i = left+1 #itemFromLeft
     j = right #itemFromRight
-    #비교연산 횟수
     while True :
         while d[i] <= x and i < right:
             i+=1
